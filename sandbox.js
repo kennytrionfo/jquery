@@ -5,7 +5,7 @@ $(document).ready(function() {
   console.log(sandbox.text());
   sandbox.css({
     'color': '#ff0000',
-    'border': '1px solid #ff0000',
+    'border': '3px solid #ff0000',
     'padding': '10px',
     'background-color': '#ffeeee'
   });
@@ -29,6 +29,7 @@ $(document).ready(function() {
     'background-color': 'green',
     'text-align': 'left'
   });
+
   sandbox.after(light);
   light.data('switch', 'on');
 
